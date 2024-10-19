@@ -6,7 +6,7 @@ class StockTradingEnv(gym.Env):
         super(StockTradingEnv, self).__init__()
         self.stock_data = stock_data
         self.current_step = 0
-        self.initial_balance = 10000  # Start with $10,000
+        self.initial_balance = int(input("Write the starting balance "))
         self.balance = self.initial_balance
         self.shares_held = 0
         self.total_profit = 0
