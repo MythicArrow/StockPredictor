@@ -12,4 +12,4 @@ class TradingModel(nn.Module):
             x = nn.relu(x)
         return nn.Dense(3)(x)  # Output Buy, Sell, Hold
 
-model = TradingModel(features=[128, 64])  # Example architecture
+model = TradingModel(features=[128, 64])  # Optional Architecture
