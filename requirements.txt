@@ -1,0 +1,9 @@
+jax
+jaxlib
+flax
+optax
+gym
+pandas
+yfinance
+numpy
+matplotlib
