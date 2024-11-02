@@ -6,4 +6,3 @@ gym
 pandas
 yfinance
 numpy
-matplotlib
